@@ -1,0 +1,41 @@
+name: my_recipe
+description: A new Flutter application.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  firebase_core: ^1.0.4
+  firebase_auth: ^1.1.1
+  cloud_firestore: ^1.0.6
+  modal_progress_hud: ^0.1.3
+  stacked: ^2.1.1
+  provider: ^5.0.0
+  stacked_services: ^0.8.5
+  get_it: ^6.1.1
+  injectable: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: worksans
+      fonts:
+        - asset: assets/fonts/WorkSans-Bold.ttf
+    - family: opensans
+      fonts:
+        - asset: assets/fonts/open_sans_bold.ttf
